@@ -28,7 +28,6 @@ bloginfo('template_directory') ?>/bootstrap-3.3.7-dist/css/bootstrap.css" media=
 <link href="<?php
 bloginfo('template_directory') ?>/style.css" media="screen" rel="stylesheet" type="text/css" />
 
-
 </head>
 
 <body>
@@ -40,13 +39,16 @@ bloginfo('template_directory') ?>/style.css" media="screen" rel="stylesheet" typ
 			<?php bloginfo('name');?>
 		</a>
 		</h1>
-		<div>
+		<label id="menu" for="toggle">Menu</label>
+		<input type="checkbox" id="toggle" checked> 
+		
+		<nav class="togglebox">
 		<?php
 		wp_nav_menu( array(
 			'theme_location' => 'primary',
 			'menu_class'     => 'st_menu',
 		 ) );
 		?>
-	</div>
+		</nav>
 	</div>
 </header>
