@@ -11,4 +11,154 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 
+
+@import
+url(http://fonts.googleapis.com/css?family=Open+Sans:
+300,400);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+h1{
+	font-size: 2em !important;
+	font-weight: bold;
+}
+
 /* Header */
+
+body{
+	background-image: url("../../themes/stable/cache/furley-bg.png");
+}
+
+li,ul,html{
+	padding: 0em;
+	margin: 0em;
+    list-style-type: none;
+
+}
+
+header{
+	text-align: center;
+	padding-bottom: 0.5em;
+	margin-top:2em;
+}
+.container{
+	padding: 0em;
+	margin-top: 0em;
+}
+a {
+	color: #6e6e6e !important;
+}
+.title > a {
+	text-decoration: none !important;
+}
+
+.st_menu > ul > li > a {
+	color: #5d5d5d;
+	text-decoration: none !important;
+}
+
+.title{
+	padding: 0.18em;
+	font-size: 2em;
+	margin-bottom: 0.4em;
+}
+.st_menu > ul > li{
+	background: #ffffff;
+	display: inline;
+	list-style-type: none;
+	font-size: 1em;
+	padding: 0.3em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+    border: 0.08em solid #ffffff;
+}
+
+/* single */
+.article-content{
+	margin-top:1em;
+}
+article {
+	background-color: #ffffff !important;
+	margin:0.5em;
+	padding: 1.5em;
+}
+.article-title{
+	padding-bottom: 0.3em;
+}
+.article-meta{
+	padding-bottom: 1em;
+}
+.wp_pagenavi{
+	text-align: center;
+	margin:0.5em;
+	margin-top:1em;
+	margin-bottom:1em;
+	padding: 1em;
+	background: #ffffff !important;
+	font-size: 1.2em;
+
+}
+.page-numbers{
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+}
+.more-link {
+	float: right;
+	color: #666;
+	margin-top: 0.8em;
+	padding: 7px 10px;
+	background: #EFEFEF;
+	text-decoration: none;
+}
+.more-link:hover {
+	background: #888;
+	color: #FFF;
+}
+
+/* sidebar */
+section{
+	padding-left: 2em;
+	margin-top:1em;
+	background: white;
+	padding-bottom: 1em;
+	margin-top: 1em;
+	padding-top: 1em;
+	margin-bottom: 1em;
+}
+section > ul {
+	font-size: 1.2em;
+}
+section > ul > li {
+	padding-bottom: 0.13em;
+	padding-top: 0.13em;
+}
+.sidebar-title{
+	font-size: 1.3em !important;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+}
+
+/* footer */
+.copyright{
+	padding-top: 0.5em;
+	padding-bottom: 1.8em;
+	text-align: center;
+}
