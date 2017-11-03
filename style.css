@@ -107,7 +107,7 @@ a {
 	font-size: 1.3em;
 	font-weight: bold;
 }
-.st_menu > ul > li{
+.page_item {
 	background: #ffffff;
 	display: inline;
 	list-style-type: none;
