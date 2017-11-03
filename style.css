@@ -137,9 +137,16 @@ input[id=toggle]{
 	display: none;
 }
 
-@media screen and (max-width: 600px) {
-
-	.title > a {
+@media screen and (max-width: 600px) {	
+	.description{
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+		font-size: 1em;
+	}
+	.title{
+		padding-bottom: 0.2em;
+	}
+	.title > a {	
 		font-size: 0.8em;
 		font-weight: bold;
 	}
@@ -283,6 +290,7 @@ section > ul > li {
 /* comments */
 
 @media screen and (max-width: 600px) {
+
 	#author,#email,#url{
 		width: 100%;
 	}
