@@ -75,10 +75,6 @@ hr{
 
 /* Header */
 
-body{
-	background-image: url("../../themes/stable/cache/furley-bg.png");
-}
-
 li,ul,html{
 	padding: 0em;
 	margin: 0em;
