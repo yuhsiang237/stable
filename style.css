@@ -200,7 +200,20 @@ input[id=toggle]{
 		display: block !important;;
 		border-top: 1px dashed #949595 !important;
 	}
-
+	
+	.st_menu > ul > li{
+		margin-left: 1em;
+		margin-right: 1em;
+		background: #ffffff;
+		list-style-type: none;
+		font-size: 1em;
+		padding: 0.5em;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+		border: 0.08em solid #ffffff;
+		display: block;
+		border-top: 1px dashed #949595;
+	}
 }
 
 .description{
