@@ -107,16 +107,18 @@ a {
 	font-size: 1.3em;
 	font-weight: bold;
 }
-.page_item {
-	background: #ffffff;
-	display: inline;
-	list-style-type: none;
-	font-size: 1em !important;
-	padding: 0.3em !important;
-	padding-left: 0.5em !important;
-	padding-right: 0.5em !important;
-    border: 0.08em solid #ffffff;
+.st_menu > ul > li {
+background: #ffffff;
+display: inline;
+list-style-type: none;
+font-size: 1em !important;
+padding: 0.3em !important;
+padding-left: 0.5em !important;
+padding-right: 0.5em !important;
+border: 0.08em solid #ffffff;
+margin:3px;
 }
+
 .toggle:hover {
 	background-color: #000000;
 }
@@ -133,7 +135,10 @@ input[id=toggle]{
 	display: none;
 }
 
-@media screen and (max-width: 600px) {	
+@media screen and (max-width: 600px) {
+	.st_menu > ul > li {
+		margin:0px;
+	}
 	.description{
 		margin-top: 0.5em;
 		margin-bottom: 0.5em;
