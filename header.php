@@ -32,7 +32,7 @@ bloginfo('template_directory') ?>/style.css" media="screen" rel="stylesheet" typ
 		background-image: url("<?php
 		bloginfo('template_directory') ?>/cache/furley-bg.png");
 	}
-	.page_item{
+	.st_menu > ul > li {
 	background: #ffffff;
 	display: inline;
 	list-style-type: none;
