@@ -187,18 +187,18 @@ input[id=toggle]{
 		max-height:0;
 	}
 
-	.st_menu > ul > li{
-		margin-left: 1em;
-		margin-right: 1em;
-		background: #ffffff;
-		list-style-type: none;
-		font-size: 1em;
-		padding: 0.5em;
-		padding-left: 0.5em;
-		padding-right: 0.5em;
-	    border: 0.08em solid #ffffff;
-	    display: block;
-	    border-top: 1px dashed #949595;
+	.st_menu > li{
+		margin-left: 1em !important;;
+		margin-right: 1em !important;;
+		background: #ffffff !important;;
+		list-style-type: none !important;;
+		font-size: 1em !important;;
+		padding: 0.5em !important;;
+		padding-left: 0.5em !important;;
+		padding-right: 0.5em !important;;
+		border: 0.08em solid #ffffff !important;;
+		display: block !important;;
+		border-top: 1px dashed #949595 !important;
 	}
 
 }
