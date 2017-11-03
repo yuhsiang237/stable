@@ -41,6 +41,7 @@ bloginfo('template_directory') ?>/style.css" media="screen" rel="stylesheet" typ
 	padding-left: 0.5em !important;
 	padding-right: 0.5em !important;
 	border: 0.08em solid #ffffff;
+	margin:3px;
 	}
 </style>
 </head>
