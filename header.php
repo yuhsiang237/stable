@@ -32,17 +32,6 @@ bloginfo('template_directory') ?>/style.css" media="screen" rel="stylesheet" typ
 		background-image: url("<?php
 		bloginfo('template_directory') ?>/cache/furley-bg.png");
 	}
-	.st_menu > ul > li {
-	background: #ffffff;
-	display: inline;
-	list-style-type: none;
-	font-size: 1em !important;
-	padding: 0.3em !important;
-	padding-left: 0.5em !important;
-	padding-right: 0.5em !important;
-	border: 0.08em solid #ffffff;
-	margin:3px;
-	}
 </style>
 </head>
 
