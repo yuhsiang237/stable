@@ -15,11 +15,11 @@
 <img width="400" src="https://github.com/unromanticman/stable/blob/master/screenshot.png?raw=true">  
 
 #### Mobile
-<img width="300" src="https://i.imgur.com/stGMRa5.png">
-
+<img width="300" src="https://i.imgur.com/QD2Mia5.png">
 
 ### 2017 11 03
 一次完成所有頁面設計
+並且更新特殊標籤樣式
 
 ### 2017 11 02
 閱讀完WordPress主題文件，開始著手製作主題。因文件沒使用Bootstrap，嘗試套上Bootstrap進行製作。
