@@ -27,7 +27,12 @@ bloginfo('template_directory') ?>/bootstrap-3.3.7-dist/css/bootstrap.css" media=
 <!--自訂樣式-->
 <link href="<?php
 bloginfo('template_directory') ?>/style.css" media="screen" rel="stylesheet" type="text/css" />
-
+<style>
+	body{
+		background-image: url("<?php
+		bloginfo('template_directory') ?>/cache/furley-bg.png");
+	}
+</style>
 </head>
 
 <body>
