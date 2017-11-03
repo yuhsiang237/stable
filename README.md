@@ -2,12 +2,13 @@
 使用WordPress有四年了，想做一個穩定的WordPress主題，以供瀏覽方面能夠更人性化。  
 此主題以兩欄式簡潔為主。
 
+### Download Theme
+<a href="https://github.com/unromanticman/stable/releases/download/1.0/stable.zip">下載Stable主題</a>
 
 ### Usage
 <pre>
-1.下載此專案
-2.將專案資料夾放置 /wp-content/themes/ 目錄下
-3.將本專案資料夾名稱從 stable-master 更改成 stable，因github會增加贅字
+1.將下載完的ZIP解壓縮後放置於 /wp-content/themes/ 目錄下
+2.進入WordPress啟用主題
 </pre>
 
 ### DEMO
