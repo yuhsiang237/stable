@@ -111,10 +111,10 @@ a {
 	background: #ffffff;
 	display: inline;
 	list-style-type: none;
-	font-size: 1em;
-	padding: 0.3em;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
+	font-size: 1em !important;
+	padding: 0.3em !important;
+	padding-left: 0.5em !important;
+	padding-right: 0.5em !important;
     border: 0.08em solid #ffffff;
 }
 .toggle:hover {
