@@ -41,6 +41,38 @@ h1{
 	font-weight: bold;
 }
 
+
+
+pre{
+	margin:1em;
+	padding: 1.3em;
+	color: #E8E8E8;
+    background: #3B3B3B;
+}
+
+p,span{
+	word-wrap: break-word;
+}
+iframe{
+	margin: 0.5em;
+}
+@media screen and (max-width: 600px) {
+	iframe{
+		width: 100%;
+		height: auto;
+	}
+}
+
+hr{
+ 	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+
 /* Header */
 
 body{
@@ -75,10 +107,9 @@ a {
 	text-decoration: none !important;
 }
 
-.title{
-	padding: 0.18em;
-	font-size: 2em;
-	margin-bottom: 0.4em;
+.title > a {
+	font-size: 1.3em;
+	font-weight: bold;
 }
 .st_menu > ul > li{
 	background: #ffffff;
@@ -91,7 +122,7 @@ a {
     border: 0.08em solid #ffffff;
 }
 .toggle:hover {
-		background-color: #000000;
+	background-color: #000000;
 }
 
 .toggle,
@@ -107,6 +138,12 @@ input[id=toggle]{
 }
 
 @media screen and (max-width: 600px) {
+
+	.title > a {
+		font-size: 0.8em;
+		font-weight: bold;
+	}
+
 	#menu:hover {
 		background-color: #bbbdbd;
 	}
@@ -148,10 +185,31 @@ input[id=toggle]{
 
 }
 
-
+.description{
+	margin-top: 0.13333em;
+	margin-bottom: 1em;
+	font-size: 1em;
+}
 
 
 /* single */
+.article-content > hr {
+	width: 95%;
+
+}
+
+img {
+	height: auto;
+    max-width: 100%;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.article-content > p {
+	font-size: 1em;
+	line-height: 1.8em;
+}
 .article-content{
 	margin-top:1em;
 }
@@ -193,7 +251,8 @@ article {
 
 /* sidebar */
 section{
-	padding-left: 2em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
 	margin-top:1em;
 	background: white;
 	padding-bottom: 1em;
@@ -217,11 +276,20 @@ section > ul > li {
 /* footer */
 .copyright{
 	padding-top: 1.5em;
-	padding-bottom: 1.8em;
+	padding-bottom: 1em;
 	text-align: center;
 }
 
 /* comments */
+
+@media screen and (max-width: 600px) {
+	#author,#email,#url{
+		width: 100%;
+	}
+	.form-submit{
+		text-align: center;
+	}
+}
 #comments{
 	margin-top: 1em;
 	background: #ffffff;

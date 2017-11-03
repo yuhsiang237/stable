@@ -39,9 +39,9 @@ bloginfo('template_directory') ?>/style.css" media="screen" rel="stylesheet" typ
 			<?php bloginfo('name');?>
 		</a>
 		</h1>
+		<div class="description"><?php bloginfo('description');?></div>
 		<label id="menu" for="toggle">Menu</label>
 		<input type="checkbox" id="toggle" checked> 
-		
 		<nav class="togglebox">
 		<?php
 		wp_nav_menu( array(
