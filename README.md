@@ -18,6 +18,17 @@
 #### Mobile
 <img width="300" src="https://i.imgur.com/QD2Mia5.png">
 
+### Web Browser
+| Browser        | Status         |
+| ------------- |:-------------:|
+| Chrome      | v | 
+| Firefox      | v      |   
+| Safair | v      |    
+| Internet Explorer 11 | v      |    
+
+### 2017 11 04
+修正標籤樣式，Release 2.0
+
 ### 2017 11 03
 一次完成所有頁面設計
 並且更新特殊標籤樣式
