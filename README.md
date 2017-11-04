@@ -3,7 +3,7 @@
 此主題以兩欄式簡潔為主。
 
 ### Download Theme
-<a href="https://github.com/unromanticman/stable/releases/download/1.0/stable.zip">下載Stable主題</a>
+<a href="https://github.com/unromanticman/stable/releases">下載Stable主題</a>
 
 ### Usage
 <pre>
