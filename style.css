@@ -16,7 +16,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 url(http://fonts.googleapis.com/css?family=Open+Sans:
 300,400);
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, p, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -41,11 +41,42 @@ h1{
 	font-weight: bold;
 }
 
+h2{
+         font-size: 1.5em !important;
+         font-weight: bold;
+ }
+ 
+ h3{
+         font-size: 1.17em;!important;
+         font-weight: bold;
+ }
+
+  
+h4{
+         font-size: 1em !important;
+         font-weight: bold;
+ }
+ 
+ 
+ h5{
+         font-size: 0.83em; !important;
+         font-weight: bold;
+ }
+  
+  
+ h6{
+             font-size: 0.67em; !important;
+         font-weight: bold;
+ }
+ 
+ strong{
+ 	font-weight: bold;
+ }
 
 
 pre{
 	margin:1em;
-	padding: 1.3em;
+	padding: 0.5em;
 	color: #E8E8E8;
     background: #3B3B3B;
 }
@@ -53,6 +84,10 @@ pre{
 p,span{
 	word-wrap: break-word;
 }
+a:hover {
+     text-decoration: none;
+     color: #aaaaaa !important;
+ }
 iframe{
 	margin: 0.5em;
 }
@@ -224,6 +259,32 @@ input[id=toggle]{
 
 
 /* single */
+
+
+@media screen and (max-width: 600px) {
+	.article-title {
+		font-size:1.35em !important;
+	}
+
+}
+
+.article-content > ul,li,ol {
+    padding: 0.3em;
+    margin-left: 0.5em;
+}
+
+.article-content > ul >li {
+    list-style-type: disc;
+}
+.article-content > ol >li {
+    list-style-type: decimal;
+}
+
+
+.article-content > p > a{
+         text-decoration: underline;
+ 
+ }
 .article-content > hr {
 	width: 95%;
 
@@ -239,7 +300,7 @@ img {
 
 .article-content > p {
 	font-size: 1em;
-	line-height: 1.8em;
+	line-height: 2em;
 }
 .article-content{
 	margin-top:1em;
@@ -272,7 +333,7 @@ article {
 	margin-top: 0.8em;
 	padding: 7px 10px;
 	background: #EFEFEF;
-	text-decoration: none;
+	text-decoration: none !important;
 }
 .more-link:hover {
 	background: #d3d3d3;
