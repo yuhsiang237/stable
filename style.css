@@ -252,10 +252,11 @@ input[id=toggle]{
 }
 
 .description{
-	margin-top: 0.13333em;
-	margin-bottom: 1em;
+	margin-top: 0.285em;
+	margin-bottom: 1.2em;
 	font-size: 1em;
 }
+
 
 
 /* single */
