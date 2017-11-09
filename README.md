@@ -26,6 +26,11 @@
 | Safair | v      |    
 | Internet Explorer 11 | v      |    
 
+### 2017 11 10
+1.增加設計者網站於底端橫幅
+2.修正頁首描述
+3.Release 3.0
+
 ### 2017 11 04
 修正標籤樣式，Release 2.0
 
