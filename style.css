@@ -476,8 +476,8 @@ label[for=comment]{
 
 /*修正段落*/
 .article-content > p {
-    margin-top: 0.25em !important;
-    margin-bottom: 0.25em !important;
-    line-height:2em;
-    text-indent: 2em;
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+    line-height:1.8em;
+    
 }
