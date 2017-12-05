@@ -4,7 +4,7 @@ Theme URI: https://github.com/unromanticman
 Description: A Stable Theme.
 Author: UM
 Author URI: https://github.com/unromanticman
-Version: 2.0
+Version: 3.0
 Tags: sample white unromanticman umworksite
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -35,6 +35,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
 
 h1{
 	font-size: 2em !important;
@@ -83,6 +85,7 @@ pre{
 
 p,span{
 	word-wrap: break-word;
+ 
 }
 a:hover {
      text-decoration: none;
@@ -258,7 +261,6 @@ input[id=toggle]{
 }
 
 
-
 /* single */
 
 
@@ -301,7 +303,7 @@ img {
 
 .article-content > p {
 	font-size: 1em;
-	line-height: 2em;
+	
 }
 .article-content{
 	margin-top:1em;
@@ -470,4 +472,12 @@ label[for=comment]{
 }
 #searchsubmit{
 	display: inline;
+}
+
+/*修正段落*/
+.article-content > p {
+    margin-top: 0.25em !important;
+    margin-bottom: 0.25em !important;
+    line-height:2em;
+    text-indent: 2em;
 }
